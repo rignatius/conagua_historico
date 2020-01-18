@@ -23,22 +23,4 @@ for (i in seq(1,nrow(listado)) ){
     }
   }
 }
-#, ssl.verifyhost=FALSE, ssl.verifypeer=FALSE)
-
-# 
-# mydat <- read.csv(textConnection(miarchivo), header=T)
-# head(mydat,20)
-# 
-# getURL("https://smn.conagua.gob.mx/tools/RESOURCES/Diarios/14040x.txt")
-
-
-# omegahatExists = url.exists("http://www.omegahat.net")
-
-# Regular HTTP
-# if(omegahatExists) {
-#   txt = getURL("http://www.omegahat.net/RCurl/")
-#   # Then we could parse the result.
-#   if(require(XML))
-#     htmlTreeParse(txt, asText = TRUE)
-# }
-
+#
